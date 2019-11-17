@@ -12,7 +12,7 @@ import javax.websocket.OnOpen;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
 
-@ServerEndpoint(value = "/chatRoomServer")
+@ServerEndpoint(value = "/Home")
 public class ChatRoomServerEndpoint {
 
 	static Set<Session> users = Collections.synchronizedSet(new HashSet<>());
